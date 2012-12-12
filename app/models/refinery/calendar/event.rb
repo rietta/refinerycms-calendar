@@ -9,7 +9,7 @@ module Refinery
 
       validates :title, :presence => true, :uniqueness => true
 
-      attr_accessible :title, :from, :to, :registration_link,
+      attr_accessible :title, :from_at, :to_at, :registration_link,
                       :venue_id, :excerpt, :description,
                       :featured, :position
 
